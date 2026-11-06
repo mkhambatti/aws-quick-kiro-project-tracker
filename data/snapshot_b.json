@@ -1,0 +1,62 @@
+[
+  {
+    "id": "L101",
+    "feature": "Search suggestions",
+    "owner": "Asha",
+    "blockers": 0,
+    "security": true,
+    "rollback": true,
+    "source": "QA-101-B",
+    "snapshot": "SNAPSHOT-B"
+  },
+  {
+    "id": "L102",
+    "feature": "Checkout help",
+    "owner": "Ben",
+    "blockers": 0,
+    "security": true,
+    "rollback": true,
+    "source": "QA-102-B",
+    "snapshot": "SNAPSHOT-B"
+  },
+  {
+    "id": "L103",
+    "feature": "Size guide",
+    "owner": "Cara",
+    "blockers": 0,
+    "security": true,
+    "rollback": true,
+    "source": "QA-103-B",
+    "snapshot": "SNAPSHOT-B"
+  },
+  {
+    "id": "L104",
+    "feature": "Order tracking",
+    "owner": "Dara",
+    "blockers": 0,
+    "security": true,
+    "rollback": false,
+    "source": "QA-104-B",
+    "snapshot": "SNAPSHOT-B"
+  },
+  {
+    "id": "L105",
+    "feature": "Store hours",
+    "owner": "Eli",
+    "blockers": 0,
+    "security": true,
+    "rollback": true,
+    "source": "QA-105-B",
+    "snapshot": "SNAPSHOT-B"
+  },
+  {
+    "id": "L106",
+    "feature": "Product comparison",
+    "owner": "Farah",
+    "blockers": null,
+    "security": true,
+    "rollback": true,
+    "source": "QA-106-B",
+    "snapshot": "SNAPSHOT-B"
+  }
+]

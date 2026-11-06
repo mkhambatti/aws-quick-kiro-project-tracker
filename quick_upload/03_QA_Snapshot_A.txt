@@ -1,0 +1,64 @@
+SNAPSHOT-A | 5 November 2026, 09:00 | synthetic
+Boolean true=passed, false=failed, null=not supplied.
+[
+  {
+    "id": "L101",
+    "feature": "Search suggestions",
+    "owner": "Asha",
+    "blockers": 0,
+    "security": true,
+    "rollback": true,
+    "source": "QA-101",
+    "snapshot": "SNAPSHOT-A"
+  },
+  {
+    "id": "L102",
+    "feature": "Checkout help",
+    "owner": "Ben",
+    "blockers": 1,
+    "security": true,
+    "rollback": true,
+    "source": "QA-102",
+    "snapshot": "SNAPSHOT-A"
+  },
+  {
+    "id": "L103",
+    "feature": "Size guide",
+    "owner": "Cara",
+    "blockers": 0,
+    "security": null,
+    "rollback": true,
+    "source": "QA-103",
+    "snapshot": "SNAPSHOT-A"
+  },
+  {
+    "id": "L104",
+    "feature": "Order tracking",
+    "owner": "Dara",
+    "blockers": 0,
+    "security": true,
+    "rollback": false,
+    "source": "QA-104",
+    "snapshot": "SNAPSHOT-A"
+  },
+  {
+    "id": "L105",
+    "feature": "Store hours",
+    "owner": "Eli",
+    "blockers": 0,
+    "security": true,
+    "rollback": true,
+    "source": "QA-105",
+    "snapshot": "SNAPSHOT-A"
+  },
+  {
+    "id": "L106",
+    "feature": "Product comparison",
+    "owner": "Farah",
+    "blockers": null,
+    "security": true,
+    "rollback": true,
+    "source": "QA-106",
+    "snapshot": "SNAPSHOT-A"
+  }
+]

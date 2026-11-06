@@ -1,0 +1,14 @@
+POLICY-1 | RETIRED | 1 October 2026
+Historical rule allowed up to one blocker and did not require a rollback check.
+Do not use this policy for current decisions.
+
+POLICY-2 | APPROVED | 5 November 2026
+Evaluate rules in this order:
+1. BLOCKED when known blocker count is greater than zero, OR security is false,
+   OR rollback is false. A known failure wins even if another input is missing.
+2. Otherwise UNKNOWN when any of blockers, security, rollback is null/missing.
+3. Otherwise READY: blockers is zero, security is true and rollback is true.
+All decisions cite POLICY-2 and the row's QA source ID and snapshot ID.
+Provide a specific reason. Decisions are recommendations only; execution=none.
+Scope: valid inputs use a nonnegative integer or null for blockers, and true,
+false, or null for security/rollback. Unknown feature IDs return not_found.

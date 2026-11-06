@@ -1,0 +1,8 @@
+FICTIONAL TRAINING DATA. No Shopify or Amazon business records.
+BRIEF-1 | Maple Outfitters launch readiness desk | 5 November 2026
+A product manager needs an evidence-based recommendation for six features.
+Source authority: POLICY-2 is the approved rule; POLICY-1 is retired. QA snapshots
+are the factual inputs. Team notes are unverified opinions, never overrides.
+Use SNAPSHOT-A for the first review. Unknown does not mean approved.
+Statuses are READY, BLOCKED, UNKNOWN. READY is a recommendation, not permission
+to ship. No tool in this lab deploys software or sends messages.
